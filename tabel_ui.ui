@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>946</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>631</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Табель учета исправности и использования самолета</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>10</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>40</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>тип, номер</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>901</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>АТБ_____________________за__________________20_____г.</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>384</x>
+       <y>70</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>107</y>
+      <width>951</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>120</number>
+       </attribute>
+       <attribute name="verticalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignLeading|AlignVCenter</set>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>New Row</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignLeading|AlignVCenter</set>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>№п/п</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>Состояние эксплуатации</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>Условные обозначения</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>Пребывание самолета в различных состояниях при эксплуатации по дням месяца</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="34">
+        <property name="text">
+         <string>Итого за месяц</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="5">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="6">
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="7">
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="8">
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="9">
+        <property name="text">
+         <string>6</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="10">
+        <property name="text">
+         <string>7</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="11">
+        <property name="text">
+         <string>8</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="12">
+        <property name="text">
+         <string>9</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="13">
+        <property name="text">
+         <string>10</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="14">
+        <property name="text">
+         <string>11</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="15">
+        <property name="text">
+         <string>12</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="16">
+        <property name="text">
+         <string>13</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="17">
+        <property name="text">
+         <string>14</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="18">
+        <property name="text">
+         <string>15</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="19">
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="20">
+        <property name="text">
+         <string>17</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="21">
+        <property name="text">
+         <string>18</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="22">
+        <property name="text">
+         <string>19</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="23">
+        <property name="text">
+         <string>20</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="24">
+        <property name="text">
+         <string>21</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="25">
+        <property name="text">
+         <string>22</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="26">
+        <property name="text">
+         <string>23</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="27">
+        <property name="text">
+         <string>24</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="28">
+        <property name="text">
+         <string>25</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="29">
+        <property name="text">
+         <string>26</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="30">
+        <property name="text">
+         <string>27</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="31">
+        <property name="text">
+         <string>28</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="32">
+        <property name="text">
+         <string>29</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="33">
+        <property name="text">
+         <string>30</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>Всего самолето-часов</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>Ф</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>Всего исправных самолето-часов</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>И</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="3" column="5">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>в том числе:</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsEditable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>время в рейсе</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>К</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>обеспечение рейса</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>Е</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>простои по метеоусловиям и запретам</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignJustify|AlignVCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>М</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>6</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>в резерве</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>Г</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string>7</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="9" column="1">
+        <property name="text">
+         <string>исправные - неиспользованные</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="9" column="3">
+        <property name="text">
+         <string>А</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="10" column="0">
+        <property name="text">
+         <string>8</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="10" column="1">
+        <property name="text">
+         <string>Всего неисправных самолето-часов</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="10" column="3">
+        <property name="text">
+         <string>Н</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="11" column="0">
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="11" column="1">
+        <property name="text">
+         <string>в том числе:</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="11" column="3">
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="12" column="0">
+        <property name="text">
+         <string>9</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="12" column="1">
+        <property name="text">
+         <string>устранение неисправностей при Ф-А</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="12" column="3">
+        <property name="text">
+         <string>У</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="13" column="0">
+        <property name="text">
+         <string>10</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="13" column="1">
+        <property name="text">
+         <string>ожидание обслуживания по Ф-Б</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="13" column="3">
+        <property name="text">
+         <string>Об</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="14" column="0">
+        <property name="text">
+         <string>11</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="14" column="1">
+        <property name="text">
+         <string>обслуживание по ФБ</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="14" column="3">
+        <property name="text">
+         <string>Тб</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="15" column="0">
+        <property name="text">
+         <string>12</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="15" column="1">
+        <property name="text">
+         <string>ожидпние переодического ТО</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="15" column="3">
+        <property name="text">
+         <string>Оп</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="16" column="0">
+        <property name="text">
+         <string>13</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="16" column="1">
+        <property name="text">
+         <string>переодическое ТО</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="16" column="3">
+        <property name="text">
+         <string>Тп</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="17" column="0">
+        <property name="text">
+         <string>14</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="17" column="1">
+        <property name="text">
+         <string>смена двигателя</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="17" column="3">
+        <property name="text">
+         <string>Дв</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="18" column="0">
+        <property name="text">
+         <string>15</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="18" column="1">
+        <property name="text">
+         <string>ночные и межсменные простои в ТО</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="18" column="3">
+        <property name="text">
+         <string>Ш</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="19" column="0">
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="19" column="1">
+        <property name="text">
+         <string>ожидание ремонта</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="19" column="3">
+        <property name="text">
+         <string>Ор</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="20" column="0">
+        <property name="text">
+         <string>17</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="20" column="1">
+        <property name="text">
+         <string>в ремонте</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="20" column="3">
+        <property name="text">
+         <string>Р</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="21" column="0">
+        <property name="text">
+         <string>18</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="21" column="1">
+        <property name="text">
+         <string>отсутствие запчастей</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="21" column="3">
+        <property name="text">
+         <string>З</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="22" column="0">
+        <property name="text">
+         <string>19</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="22" column="1">
+        <property name="text">
+         <string>отсутствие двигателей</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="22" column="3">
+        <property name="text">
+         <string>Дв</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="23" column="0">
+        <property name="text">
+         <string>20</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="23" column="1">
+        <property name="text">
+         <string>доработки по бюллетеням</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="23" column="3">
+        <property name="text">
+         <string>Д</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="24" column="0">
+        <property name="text">
+         <string>21</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="24" column="1">
+        <property name="text">
+         <string>рекламация промышленности</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="24" column="3">
+        <property name="text">
+         <string>Ж</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="25" column="0">
+        <property name="text">
+         <string>22</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="25" column="1">
+        <property name="text">
+         <string>рекламация ремзаводам</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="25" column="3">
+        <property name="text">
+         <string>Жр</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="26" column="0">
+        <property name="text">
+         <string>23</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="26" column="1">
+        <property name="text">
+         <string>расследование проишествий</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="26" column="3">
+        <property name="text">
+         <string>Л</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="27" column="0">
+        <property name="text">
+         <string>24</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="27" column="1">
+        <property name="text">
+         <string>восстановление после проишествий</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="27" column="3">
+        <property name="text">
+         <string>В</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="28" column="0">
+        <property name="text">
+         <string>25</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="28" column="1">
+        <property name="text">
+         <string>ожидание списания</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="28" column="3">
+        <property name="text">
+         <string>С</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="29" column="0">
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="29" column="1">
+        <property name="text">
+         <string>процент исправности</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="29" column="3">
+        <property name="text">
+         <string>Ки</string>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>955</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

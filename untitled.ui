@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>22</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Диспетчерский график</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Дата:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateEdit" name="dateEdit">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="dateTime">
+             <datetime>
+              <hour>0</hour>
+              <minute>0</minute>
+              <second>0</second>
+              <year>2020</year>
+              <month>10</month>
+              <day>20</day>
+             </datetime>
+            </property>
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>55</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Выберите условное обозначение:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <item>
+                <property name="text">
+                 <string>В рейсе</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Обеспечение рейся</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Задержки по метеоусловиям и в связи с запретами</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>В резерве</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Исправный - неиспользуемый</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Устранение неисправностей при оперативном ТО</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Ожидание технического обслуживания по Ф-Б</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Техобслуживание по Ф-Б</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Ожидание периодического техобслуживания</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Техобслуживание по периодическим формам</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Межсменные или ночные перерывы</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Ожидание ремонта</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>В ремонте</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Отсуствие запчастей</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Отсутствие двигателей</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Доработки по бюллетеням</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Рекламация промышленности</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Рекламация ремзаводам</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Расследование летных происшедствий, поломок, повреждений</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Восстановление самолета после повреждения</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Ожидание списания</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>7</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="font">
+                <font>
+                 <family>Tabellsymboler</family>
+                 <pointsize>60</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(85, 170, 0);</string>
+               </property>
+               <property name="text">
+                <string>a</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="font">
+          <font>
+           <family>Tabellsymboler</family>
+           <pointsize>30</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>50</number>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>30</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>30</number>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Ил-96</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Боинг-767</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Боинг-777</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Ту-134</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Ту-154</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>00:00</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>00:10</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>00:20</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>00:30</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>00:40</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>00:50</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>01:00</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>01:10</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Новый столбец</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>a</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Tabellsymboler</family>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>85</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>85</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>a</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1045</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_3"/>
+    <addaction name="separator"/>
+    <addaction name="action_2"/>
+   </widget>
+   <widget class="QMenu" name="menuhcgh">
+    <property name="title">
+     <string>Документы</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Помощь</string>
+    </property>
+    <addaction name="action_9"/>
+    <addaction name="separator"/>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuhcgh"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Загрузить</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Табель</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Отчёт</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Об авторе</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Инструкция</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
